@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/workers")
 public class WorkerResource {
 
-    @Autowired
     private static Logger logger = LoggerFactory.getLogger(WorkerResource.class);
 
     @Autowired
